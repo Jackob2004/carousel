@@ -10,15 +10,26 @@
   </head>
   <body>
     <div id="carousel">
-      <button id="btn-prev" type="button"><</button>
-      <div id="carousel-container">
-        <img src="/assets/img-1.jpg" alt="An image of river below cliffy terrain" />
-        <img src="/assets/img-2.jpg" alt="An image mountains" />
-        <img src="/assets/img-3.jpg" alt="An image water in the ocean" />
-        <img src="/assets/img-4.jpg" alt="An image of the shy" />
-        <img src="/assets/img-5.jpg" alt="An image night sky" />
+      <div id="main-container">
+        <button id="btn-prev" type="button"><</button>
+        <div id="carousel-container">
+          <img src="/assets/img-1.jpg" alt="An image of river below cliffy terrain" />
+          <img src="/assets/img-2.jpg" alt="An image mountains" />
+          <img src="/assets/img-3.jpg" alt="An image water in the ocean" />
+          <img src="/assets/img-4.jpg" alt="An image of the shy" />
+          <img src="/assets/img-5.jpg" alt="An image night sky" />
+        </div>
+        <button id="btn-next" type="button">></button>
       </div>
-      <button id="btn-next" type="button">></button>
+
+      <div id="direct-navigation">
+        <button class="navigation" type="button" data-image="0"></button>
+        <button class="navigation" type="button" data-image="1"></button>
+        <button class="navigation" type="button" data-image="2"></button>
+        <button class="navigation" type="button" data-image="3"></button>
+        <button class="navigation" type="button" data-image="4"></button>
+      </div>
+
     </div>
   </body>
 </html>
