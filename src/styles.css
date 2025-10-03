@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+#carousel {
+    margin: auto;
+}
+
+#carousel-container {
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+}
