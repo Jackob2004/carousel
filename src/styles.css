@@ -21,17 +21,29 @@ img {
     display: block;
 }
 
+.selected {
+    background-color: var(--pallete-cream) !important;
+}
+
 #carousel {
     display: flex;
-    gap: 30px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 
     width: 1000px;
     height: 900px;
     margin: auto;
     border-radius: 10px;
     background-color: var(--pallete-blue);
+}
+
+#main-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 #carousel button {
